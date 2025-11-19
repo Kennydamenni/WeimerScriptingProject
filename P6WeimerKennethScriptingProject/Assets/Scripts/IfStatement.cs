@@ -7,6 +7,8 @@ public class IfStatement : MonoBehaviour
     float coffeeTemperature = 85.0f;
     float hotLimitTemperature = 70.0f;
     float coldLimitTemperature = 40.0f;    
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,9 +23,9 @@ public class IfStatement : MonoBehaviour
 
         coffeeTemperature -= Time.deltaTime * 5f;
     }
-    
 
-    void TemeratureTest()
+
+    void TemperatureTest()
     {
         //If the coffee's temperater is greater than the hottest drinking temperature...
         if(coffeeTemperature > hotLimitTemperature)
